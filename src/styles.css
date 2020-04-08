@@ -1,0 +1,21 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+button {
+  height: 40px;
+  width: 80px;
+  margin-right: 20px;
+  background-color: aquamarine;
+  color: blue;
+}
